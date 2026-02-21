@@ -69,11 +69,13 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 center;
 }
 
 #footer,
 #discord,
 #contact,
+footer,
 #about {
     padding: 48px 0;
 }
@@ -185,9 +187,20 @@ footer {
 }
 
 .footer__logo {
-    max-width: 480px;;
+    max-width: 480px;
+    margin-bottom: 16px;
 }
 
-.footer__link {
+.footer__links {
     margin-bottom: 32px;
+}
+
+.footer_link {
+    padding: 0 16px;
+}
+
+.section__description--footer--paragraph {
+    font-size: 16px;
+    font-style: italic;
+    margin: 16px 0;
 }

@@ -205,7 +205,13 @@ footer {
     margin: 16px 0;
 }
 
-/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+/* 
+
+SMALL PHONES, TABLETS, LARGE SMARTPHONES 
+
+*/
+
+
 @media (max-width: 728px) {
     .row {
         flex-direction: column;
